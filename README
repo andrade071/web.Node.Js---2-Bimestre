@@ -1,0 +1,34 @@
+\\ Locadora de Carros API 
+
+-- Descrição -- 
+Este projeto é uma API para gerenciar operações de aluguel de veículos para clientes. 
+O sistema controla informações sobre os veículos.
+
+-- Rotas---
+Clientes
+GET /clientes: Lista todos os clientes.
+GET /clientes/
+\\ Retorna um cliente específico por ID.
+POST /clientes: Cria um novo cliente.
+PUT /clientes/
+\\ Atualiza um cliente existente por ID.
+DELETE /clientes/
+\\ Exclui um cliente por ID.
+
+-- instalação feita --- 
+Node.js
+Express
+Sequelize
+MySQL
+dotenv
+
+-- npm start
+
+> locadora-carros-api@1.0.0 start
+> node app.js
+
+Executing (default): SELECT 1+1 AS result
+Executing (default): SELECT 1+1 AS result
+Connection has been established successfully.
+Server is running on port 3000
+Connection has been established successfully.
